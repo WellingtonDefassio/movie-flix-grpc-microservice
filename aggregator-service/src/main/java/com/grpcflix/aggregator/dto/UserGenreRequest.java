@@ -1,0 +1,12 @@
+package com.grpcflix.aggregator.dto;
+
+import lombok.Data;
+
+@Data
+
+public class UserGenreRequest {
+
+    private String loginId;
+    private String genre;
+
+}
