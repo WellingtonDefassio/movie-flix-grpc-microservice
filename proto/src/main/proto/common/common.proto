@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package common;
+option java_multiple_files = true;
+option java_package = "com.grpcflix.common";
+
+enum Genre {
+  DRAMA = 0;
+  ACTION = 1;
+  COMEDY = 2;
+  ROMANCE = 3;
+  TERROR = 4;
+  WESTERN = 5;
+  THRILLER = 6;
+}
